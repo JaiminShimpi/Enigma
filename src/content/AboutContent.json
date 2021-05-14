@@ -1,15 +1,15 @@
 {
   "title": "Light, Fast & Responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "text": "This App consists of different Templates, so you don't need to change anything at a component level, unless you want to customize the default styling.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Who can use this App?",
+      "content": "Anyone can use this app as long as you have to conduct examination and can not invest more time in designing it traditionally. Go Ahead and download it!!",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "More Features from the App",
+      "content": "This application is not only helpful for generating question-papers, but it also can be useful to store your questions along with their appropriate tags and searching based on the same. Which eventually makes the retrieval easier and faster.",
       "icon": "notes.svg"
     }
   ]

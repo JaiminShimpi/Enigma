@@ -40,20 +40,21 @@ const Home = () => {
         id="about"
       />
       <ContentBlock
-        type="right"
-        title={MissionContent.title}
-        content={MissionContent.text}
-        icon="product-launch.svg"
-        id="mission"
-      />
-
-      <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="waving.svg"
         id="product"
       />
+      <ContentBlock
+        icon="product-launch.svg"
+        type="right"
+        title={MissionContent.title}
+        content={MissionContent.text}
+        id="mission"
+      />
+
+      
       <ContactFrom
         title={ContactContent.title}
         content={ContactContent.text}

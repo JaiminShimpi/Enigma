@@ -10,6 +10,7 @@ const SvgIcon = lazy(() => import("../../common/SvgIcon"));
 const Container = lazy(() => import("../../common/Container"));
 
 const Footer = ({ t }) => {
+  // eslint-disable-next-line
   const handleChange = (event) => {
     i18n.changeLanguage(event.target.value);
   };
@@ -42,7 +43,7 @@ const Footer = ({ t }) => {
                     `Do you have any question regarding the project? Feel free to reach out.`
                   )}
                 </S.Para>
-                <a href="mailto:l.qqbadze@gmail.com">
+                <a href="mailto:jaiminshimpi02@gmail.com">
                   <S.Chat>{t(`Let's Chat`)}</S.Chat>
                 </a>
               </Col>
@@ -69,9 +70,9 @@ const Footer = ({ t }) => {
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Empty />
                 <S.Language>{t("ADDRESS")}</S.Language>
-                <S.Para>Rancho Santa Margarita</S.Para>
-                <S.Para>2131 Elk Street</S.Para>
-                <S.Para>California</S.Para>
+                <S.Para>BVM Engineering College</S.Para>
+                <S.Para>Vallabh Vidyanagar</S.Para>
+                <S.Para>Anand, Gujarat</S.Para>
               </Col>
               <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
@@ -87,19 +88,6 @@ const Footer = ({ t }) => {
                 <S.Large left="true" to="/">
                   {t("Careers & Culture")}
                 </S.Large>
-              </Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Select>
-                  <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
-                  <S.LangSelect
-                    onChange={handleChange}
-                    value={i18n.language}
-                    id="select-lang"
-                  >
-                    <option value="en">English</option>
-                    <option value="es">Español</option>
-                  </S.LangSelect>
-                </S.Select>
               </Col>
             </Row>
           </Container>
@@ -117,30 +105,30 @@ const Footer = ({ t }) => {
                   <SvgIcon
                     src="logo.svg"
                     aria-label="homepage"
-                    width="101px"
-                    height="64px"
+                    width="50px"
+                    height="30px"
                   />
                 </S.LogoContainer>
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="https://github.com/Adrinlol/create-react-app-adrinlol"
+                  href="https://github.com/confringoinc"
                   src="github.svg"
                 />
                 <SocialLink
-                  href="https://twitter.com/Adrinlolx"
+                  href="https://twitter.com/ShimpiJaimin"
                   src="twitter.svg"
                 />
                 <SocialLink
-                  href="https://www.linkedin.com/in/lasha-kakabadze/"
+                  href="https://www.linkedin.com/in/jaiminshimpi/"
                   src="linkedin.svg"
                 />
                 <SocialLink
-                  href="https://github.com/Adrinlol/"
+                  href="https://www.instagram.com/"
                   src="instagram.svg"
                 />
                 <SocialLink
-                  href="https://medium.com/@lashakakabadze/"
+                  href="https://medium.com/"
                   src="medium.svg"
                 />
               </S.FooterContainer>

@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "ENIGMA ~ A Question Paper Generator Application",
+  "text": "A aesthically designed app for saving a ton of time for creating a Question Paper on just few clicks!!",
   "button": [
     {
-      "title": "Explore"
+      "title": "Download"
     },
     {
-      "title": "Learn More",
+      "title": "Support Us ❤️",
       "color": "#fff"
     }
   ]

@@ -39,7 +39,7 @@ const Contact = ({ title, content, id, t }) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="name"
+                  name="Name"
                   id="Name"
                   placeholder="Your Name"
                   value={values.name || ""}
@@ -50,7 +50,7 @@ const Contact = ({ title, content, id, t }) => {
               <Col span={24}>
                 <Input
                   type="text"
-                  name="email"
+                  name="Email"
                   id="Email"
                   placeholder="Your Email"
                   value={values.email || ""}
@@ -62,7 +62,7 @@ const Contact = ({ title, content, id, t }) => {
                 <TextArea
                   placeholder="Your Message"
                   value={values.message || ""}
-                  name="message"
+                  name="Message"
                   id="Message"
                   onChange={handleChange}
                 />
