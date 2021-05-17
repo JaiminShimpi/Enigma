@@ -31,7 +31,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
                         key={id}
                         color={item.color}
                         width="true"
-                        onClick={() => scrollTo("about")}
+                        onClick={() => window.open("https://github.com/confringoinc/Enigma/releases/download/1.0.0/Enigma.apk", "_blank")}
                       >
                         {t(item.title)}
                       </Button>
