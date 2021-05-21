@@ -8,12 +8,6 @@ import Button from "../../../common/Button";
 import * as S from "./styles";
 
 const RightBlock = ({ title, content, button, icon, t, id }) => {
-  const scrollTo = (id) => {
-    const element = document.getElementById(id);
-    element.scrollIntoView({
-      behavior: "smooth",
-    });
-  };
   return (
     <S.RightBlockContainer>
       <Row type="flex" justify="space-between" align="middle" id={id}>
